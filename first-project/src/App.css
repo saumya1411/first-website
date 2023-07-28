@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+   overflow:  hidden;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/public/images/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+:root{
+        --primary-dark: #1F2937;
+        --primary-green:#6EE7B7;
+      
+}
+.container{
+    margin: 0;
+    max-width: 1390px;
+    align-item: center;
+    margin-left: 4rem;
+    margin-top: rem;
+    justify-content: space-between;
+
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+    
+    height: 50px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+button{
+    /*all:unset*/
+    padding: 6px  10px;
+    background-color: #70b1ea;
+    height: 32px;
+    font-weight: 900;
+    cursor: pointer;
+    color:white; /*color of login*/
+    margin-right: 4rem;
+    border-color: #337ab7;
+}
+
+.hero{
+    display: flex;
+    align-item: center;
+    margin-bottom: 5rem;
+    
+    
+
+}
+
+
+    
+
+.hero .hero-img{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 10rem;
+    margin-left: 0rem;
+    height: 700px;
+    max-width: 1000px;
+    object-fit: 100%;
+    margin-right: 6rem;
+}
+
+.hero .hero-btn{
+    background: transparent;
+    color: white;
+    margin-top: 6rem;
+    margin-right: 10rem;
+}
+.hero .brand-icons{
+    height: 1rem;
+    max-width: 0.5rem;
+    margin-left:8rem;
+    
+}
+.hero .hero-content{
+    
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 200px ;
+    font-weight: 800 ;
+    line-height: 1px;
+
+
+}
+.hero h1{
+   
+    font-family: serif;
+    font-weight: 2000;
+    font-size: 90px;
+    line-height: 70px;
+    color: #1d6bae;
+    
+}
+.hero p{
+     font-size:150%;
+     line-height: 1px;
+     margin-top: 3rem;
+}
+
+.hero h2{
+    font-size:150%;
+    color: rgb(220, 105, 124);
+    
+    font-family: 'Dancing Script', cursive;
+
+     
+}
+
